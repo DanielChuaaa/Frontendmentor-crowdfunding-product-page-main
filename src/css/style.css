@@ -1174,8 +1174,8 @@ body {
   background-color: hsl(176 50% 47% / var(--tw-bg-opacity));
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
@@ -1196,6 +1196,13 @@ body {
 .buttonBackThisProject:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(176 72% 28% / var(--tw-bg-opacity));
+}
+
+@media (min-width: 400px) {
+  .buttonBackThisProject {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
 }
 
 @media (max-width: 350px) {
